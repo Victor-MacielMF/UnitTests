@@ -1,12 +1,28 @@
-﻿using System.Net.NetworkInformation;
+﻿using NetworkUtility.Interfaces;
+using System.Net.NetworkInformation;
 
-namespace NetworkUtility.Ping
+namespace NetworkUtility.Services
 {
     public class NetworkService
     {
+        private readonly IDnsService _dnsService;
+        public NetworkService(IDnsService dnsService)
+        {
+            _dnsService = dnsService;
+        }
+
         public string SendPing()
         {
-            return "Success: Ping Sent!";
+            bool result = _dnsService.SendDns();
+            if (result)
+            {
+                return "Success: Ping Sent!";
+
+            }
+            else
+            {
+                return "Failled: Ping Unsent!";
+            }
         }
 
         public int PingTimeout(int a, int b)
