@@ -1,36 +1,63 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36121.58 d17.14
+VisualStudioVersion = 17.14.36121.58
 MinimumVisualStudioVersion = 10.0.40219.1
+
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{49E17604-158B-4590-8F72-7F7BBE82BBD8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkUtility", "NetworkUtility\NetworkUtility.csproj", "{0D4D3208-7F8D-4E61-9356-6D3E2FEA3728}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkUtility.Tests", "NetworkUtility.Tests\NetworkUtility.Tests.csproj", "{EB25385E-3D58-4C77-A130-85C059AE76B5}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RunGroopWebApp", "RunGroopWebApp\RunGroopWebApp.csproj", "{4E3B4BC1-B408-4BF8-AE2D-C484FE2A8D0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RunGroopWebApp.Tests", "RunGroopWebApp.Tests\RunGroopWebApp.Tests.csproj", "{28D349D8-816F-4C7F-A2A7-24FB714C2DE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RunGroopWebApp.Scraper", "RunGroopWebApp.Scraper\RunGroopWebApp.Scraper.csproj", "{BB5B8E0E-FDD9-4BC5-89DD-31CEC8EFFC2E}"
+EndProject
+
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{49E17604-158B-4590-8F72-7F7BBE82BBD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{49E17604-158B-4590-8F72-7F7BBE82BBD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49E17604-158B-4590-8F72-7F7BBE82BBD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49E17604-158B-4590-8F72-7F7BBE82BBD8}.Release|Any CPU.Build.0 = Release|Any CPU
+
 		{0D4D3208-7F8D-4E61-9356-6D3E2FEA3728}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0D4D3208-7F8D-4E61-9356-6D3E2FEA3728}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D4D3208-7F8D-4E61-9356-6D3E2FEA3728}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D4D3208-7F8D-4E61-9356-6D3E2FEA3728}.Release|Any CPU.Build.0 = Release|Any CPU
+
 		{EB25385E-3D58-4C77-A130-85C059AE76B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{EB25385E-3D58-4C77-A130-85C059AE76B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB25385E-3D58-4C77-A130-85C059AE76B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB25385E-3D58-4C77-A130-85C059AE76B5}.Release|Any CPU.Build.0 = Release|Any CPU
+
+		{4E3B4BC1-B408-4BF8-AE2D-C484FE2A8D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3B4BC1-B408-4BF8-AE2D-C484FE2A8D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3B4BC1-B408-4BF8-AE2D-C484FE2A8D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3B4BC1-B408-4BF8-AE2D-C484FE2A8D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+
+		{28D349D8-816F-4C7F-A2A7-24FB714C2DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D349D8-816F-4C7F-A2A7-24FB714C2DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D349D8-816F-4C7F-A2A7-24FB714C2DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D349D8-816F-4C7F-A2A7-24FB714C2DE9}.Release|Any CPU.Build.0 = Release|Any CPU
+
+		{BB5B8E0E-FDD9-4BC5-89DD-31CEC8EFFC2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB5B8E0E-FDD9-4BC5-89DD-31CEC8EFFC2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB5B8E0E-FDD9-4BC5-89DD-31CEC8EFFC2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB5B8E0E-FDD9-4BC5-89DD-31CEC8EFFC2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {85053D85-D0CB-4FB3-91BC-7B5BFE9FB431}
 	EndGlobalSection
